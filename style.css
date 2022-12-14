@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url("Robtop.jpg");
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Alexandria', sans-serif;
+    margin: 15px;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.281);
+    text-align: center;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: 0.3s;
+}
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.322);
+}
+h2{
+    font-family: 'Alexandria', sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 50px;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+}
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 50px;
+    text-align: right;
+    font-size: 20px;
+    background-image: linear-gradient(to right, transparent,rgb(255, 255, 255));
+    width: 60%;
+    padding: 30px;
+    border-radius: 15px;
+    display: inline-block;
+    
+}
+.banner{
+    background-image: url("img.jpg");
+    overflow: hidden;
+    text-align: right;
+}
+#hochuimogu{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Alexandria', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 15px white;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: 0.3s;
+}
+#downloadCont{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#hochuimogu:hover{
+    background-color: rgba(0, 0, 0, 0.671);
+}
