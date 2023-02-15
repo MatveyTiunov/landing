@@ -79,6 +79,7 @@ h2{
     text-align: center;
 }
 .info{
+    box-sizing: border-box;
     background-color: rgb(255, 255, 255);
     width: 30%;
     display: inline-block;
@@ -124,9 +125,143 @@ h2{
 }
 .factory{
     text-align: center;
+    font-family: 'Alexandria', sans-serif;
+    color: rgb(255, 255, 255);
 }
 .country ul{
     background-color: rgba(255, 255, 255, 0.616);
     list-style: none;
     font-family: 'Noto Serif TC','Alexandria','Roboto Condensed', serif;
+    color: black;
+}
+.country a{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: inline-block;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #222;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: 0.3s;
+    box-shadow: 12px 12px 29px black;
+}
+.country a:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.member{
+    height: 200px;
+    width: 200px;
+    display: inline;
+    border-radius: 11111111111111px;
+    object-fit: cover;
+}
+.team1{
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.445);
+    display: inline-block;
+    width: 27%;
+    margin: 10px;
+    height: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* для того чтобы пэддинг не делал больше карточку */
+    box-sizing: border-box;
+}
+.team1 a{
+    color: rgb(155, 151, 151);
+    text-decoration: none;
+    font-size: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.356);
+    transition: 0.3s;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 20px;
+}
+.team{
+    text-align: center;
+}
+.team1 p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.team1 a:hover{
+    border: 1px solid white;
+}
+.feedback p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+input{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 400px;
+    border-radius: 8px;
+    padding: 0 5px;
+}
+.feedback{
+    text-align: center;
+    margin-bottom: 100px;
+}
+textarea{
+    width: 400px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+button{
+    display: block;
+    margin: auto;
+    height: 40px;
+    border-radius: 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: none ;
+    box-shadow: 2px 1px 22px white;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+html{
+    scroll-behavior: smooth;
+}
+@media (max-width: 600px) {
+    .country{
+        width:90%;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .team1{
+        width: 90% ;
+    }
+    textarea{
+        width:90%;
+    }
+    input{
+        width:90%;
+    }
+    .info{
+        margin: auto;
+        width: 90%;
+    }
+    .ameba img{
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
